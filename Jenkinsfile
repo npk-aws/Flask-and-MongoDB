@@ -6,7 +6,7 @@ pipeline {
 
         stage('Pull Code') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/flask-repo.git'
+                git 'https://github.com/npk-aws/Flask-and-MongoDB.git'
             }
         }
 
